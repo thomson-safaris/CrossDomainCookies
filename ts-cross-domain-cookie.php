@@ -13,6 +13,9 @@ Text Domain: tscrossdomaincookie
 */
 $settings = htmlentities(json_encode($_GET));
 ?>
-<div style="display:none;">
+<div id="crossDomainCookie" style="display:none;">
     <img src="https://basecamp.thomsonsafaris.com/basecamp/api/v1/cdcookie/<?= $settings ?>" style="display:none; height:0px !important;"/>
 </div>
+<script>
+    $('#crossDomainCookie').hide();
+</script>
