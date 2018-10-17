@@ -13,4 +13,6 @@ Text Domain: tscrossdomaincookie
 */
 $settings = htmlentities(json_encode($_GET));
 ?>
-<div><img src="https://basecamp.thomsonsafaris.com/basecamp/api/v1/cdcookie/<?= $settings ?>" style="display:none;" /></div>
+<div style="display:none;">
+    <img src="https://basecamp.thomsonsafaris.com/basecamp/api/v1/cdcookie/<?= $settings ?>" style="display:none;"/>
+</div>
