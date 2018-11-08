@@ -6,7 +6,7 @@
 Plugin Name: TS Cross Domain Cookie
 Plugin URI: https://github.com/thomson-safaris/CrossDomainCookies.git
 Description: Remember google/bing PPC across sub-domains
-Version: 1.0.1
+Version: 1.0.2
 Author: Jim Chapman - Thomson Safaris
 License: GPLv2 or later
 Text Domain: tscrossdomaincookie
